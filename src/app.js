@@ -40,7 +40,9 @@ AFRAME.registerComponent("play-on-click", {
       return;
     }
     this.el.object3D.visible = true;
-    videoEl.play();
+    videoEl.unload();//销毁已在播放的
+    videoEl.muted = false//靜音轉為有聲音
+    videoEl.play();//播放此影片
   }
 });
 
