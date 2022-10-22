@@ -75,40 +75,56 @@
         <video  id="video4" preload="auto" src="videos/test4.mp4" width="160" height="90" autoplay loop="true" crossOrigin="anonymous" muted type="video/mp4"></video>
       </a-assets>
 
-      <a-entity  id="target" mindar-image-target="targetIndex: 0"    material="shader: flat; src: #video1"
+      <a-entity  id="target1" mindar-image-target="targetIndex: 0" 
+        material="shader: flat; src: #video1"
         geometry="primitive: box; width: 1; height: 1; depth: 0"
         position="0 0 0"
         rotation="0 0 0"
-        play-on-click
-        visible="true">
+        visible="true"
+        webkit-playsinline
+        crossorigin="anonymous"
+        preload="auto"
+        >
       </a-entity>
 
-      <a-entity  id="target" mindar-image-target="targetIndex: 1"    material="shader: flat; src: #video2"
+      <a-entity  id="target2" mindar-image-target="targetIndex: 1"    material="shader: flat; src: #video2"
         geometry="primitive: box; width: 1; height: 1; depth: 0"
         position="0 0 0"
         rotation="0 0 0"
-        play-on-click
-        visible="true">
+        visible="true"
+        webkit-playsinline
+        crossorigin="anonymous"
+        preload="auto"
+        >
       </a-entity>
 
-      <a-entity  id="target" mindar-image-target="targetIndex: 2"    material="shader: flat; src: #video3"
+      <a-entity  id="target3" mindar-image-target="targetIndex: 2"    material="shader: flat; src: #video3"
         geometry="primitive: box; width: 1; height: 1; depth: 0"
         position="0 0 0"
         rotation="0 0 0"
-        play-on-click
-        visible="true">
+       
+        visible="true"
+        webkit-playsinline
+        crossorigin="anonymous"
+        preload="auto"
+        >
       </a-entity>
 
-      <a-entity  id="target" mindar-image-target="targetIndex: 3"    material="shader: flat; src: #video4"
+      <a-entity  id="target4" mindar-image-target="targetIndex: 3"    material="shader: flat; src: #video4"
         geometry="primitive: box; width: 1; height: 1; depth: 0"
         position="0 0 0"
         rotation="0 0 0"
-        play-on-click
-        visible="true">
+        visible="true"
+        webkit-playsinline
+        crossorigin="anonymous"
+        preload="auto"
+        >
       </a-entity>
 
       <!-- 使用相機 -->
-      <a-camera position="0 0 0" look-controls="enabled: false"> </a-camera>
+      <a-camera position="0 0 0" look-controls="enabled: false">
+      
+      </a-camera>
     </a-scene>
 
   </body>
