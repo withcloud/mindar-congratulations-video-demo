@@ -20,6 +20,5 @@ exampleTarget.addEventListener("targetFound", event => {
 // detect target lost
 exampleTarget.addEventListener("targetLost", event => {
   var videoEl = exampleTarget.getAttribute("material").src;
-  this.el.object3D.visible = false;
   videoEl.muted = true
 });
